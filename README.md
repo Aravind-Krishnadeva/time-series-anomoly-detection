@@ -1,11 +1,16 @@
-# time series anomoly detection
+# Sensor data anomoly detection using Time series analysis
 ## Description
-This project is a beginners project to perform time series analysis using python for detecting anomalies in multi sensor indoor environmental data. The data is not a real world data, but mimics a real world data set by curating a set of sensor values against some random time intervals.
-## Methodology
-1. Create a time object
-2. Generate temperature, humidity and light sensor data
+This project is a beginners project to perform time series analysis using python for detecting anomalies in multi sensor indoor environmental data. The data is not a real world data, but mimics a real world data set by simulating a set of sensor values against time calculated for a day.
+
+## What is time series analysis
+A time series is a sequence of data points recorded at regular time intervals. Time Series Analysis is the study of data points collected over time to identify patterns, trends, and seasonal variations. It is widely used in weather forecasting, stock market analysis, energy consumption tracking, and IoT sensor data processing.
+
+## Methodology of the project
+1. Create a time / date object in python
+2. Simulate temperature, humidity and light sensor data
 3. Build a data frame
 4. Visualize sensor data vs time
-5. Remove noise and learn trends
-6. Anomoly detection 
+5. Remove noise, and learn on trends
+6. Detect anomolies in sensor data
+7. Perform simple forecasting using SMA (Simple moving average)
 
