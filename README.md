@@ -17,4 +17,4 @@ A time series is a sequence of data points recorded at regular time intervals. T
 ## Description
 1. **Create a time object:** We create a 24 hour time log, which creates a time stamp for every minute using the 'Date range method' of pandas library. Creates a series of time stamps for a 
    day.
-2.** Create a simulated real world sensor data**: We create a simple dataset comprising of temperature, humidity and light data. 
+2. **Create a simulated real world sensor data:**  We create a simple dataset comprising of temperature, humidity and light data. 
