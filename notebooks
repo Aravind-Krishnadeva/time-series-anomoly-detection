@@ -7,3 +7,11 @@ import matplotlib.pyplot as plt
 np.random.seed(42)
 time = pd.date_range(start='2025-01-01', periods=1440, freq='T')
 
+# curate set of sensor data for a day
+np.random.seed(42)
+temp_data = 25 + np.sin(np.linspace(0,3.14,1440))*4 + np.random.normal(0,0.5,1440)
+humidity_data = 50 + np.cos(np.linspace(0,3.14,1440))*5+ np.random.normal(0,1,1440)
+light_data = 400 + np.sin(np.linspace(0,6.28,1440))*100 + np.random.normal(0,10,1440)
+
+
+
