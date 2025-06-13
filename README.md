@@ -22,10 +22,23 @@ A time series is a sequence of data points recorded at regular time intervals. T
    2. Jupyter notebooks for coding
    
 ## Description
-1. **Create a time object:** We create a 24 hour time log, which creates a time stamp for every minute using the 'Date range method' of pandas library. Creates a series of time stamps for a day.
-2. **Curate  simulated real world sensor data:**  We create a simple dataset comprising of temperature, humidity and light data.
-3. **Create a time series dataframe:** We create a time indexed dataframe, with temperature, humidity and light data
-4. **Create first visualization plots** Plot the initial sensor data against time
-5. **Trend smoothing** Filter out noise from sensor data, to detect underlying trends
-6. **Create second visualization plots** Plot the smoothened sensor data against time
-7. **Perform anomoly detection**
+## 1. Create a Time Object
+Generate a 24-hour timeline with a timestamp for every minute using the `date_range()` method from the Pandas library. This forms the time base for our time series.
+
+## 2. Simulate Real-World Sensor Data
+Create synthetic datasets mimicking real sensor data — including temperature, humidity, and light intensity — with added random noise for realism.
+
+## 3. Create a Time-Indexed DataFrame
+Combine the time object and simulated data into a Pandas DataFrame, setting time as the index to enable time-based operations.
+
+## 4. Initial Data Visualization
+Plot the raw sensor data against time to observe natural trends and noise.
+
+## 5. Apply Trend Smoothing
+Use a Simple Moving Average (SMA) to smooth the time series, helping to highlight overall trends by reducing noise.
+
+## 6. Smoothed Data Visualization
+Plot the smoothed sensor data to compare with raw data and better understand the underlying patterns.
+
+## 7. Perform Anomaly Detection
+Identify abnormal sensor readings by comparing values against rolling statistics (mean and standard deviation).
